@@ -1,6 +1,10 @@
 # Timber Backend
 
-Proposed API routes:
+# Technology
+
+The proposed tech behind for the backend is: **Python Flask** and **AWS DynamoDB**
+
+# Proposed API routes:
 
 ## login/
 Self explanatory, takes `email, hash`
