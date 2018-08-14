@@ -1,0 +1,19 @@
+## Endpoints
+
+- Create user
+- Update user
+- Load nearby users
+- Load matches
+- Load chat
+- Send Message
+- Register Swipe
+- Recieve new match/message
+
+
+## Schemas
+
+- User
+- Matches
+- Chat, https://stackoverflow.com/questions/39488727/best-way-to-store-chat-messages-in-elasticsearch
+
+I propose for handling the Chat storage and schema we use the ideas presented in the above stackoverflow link for creating a facebook like chat schema using elasticsearch. i have done this before for a similar application and it works nicely.
