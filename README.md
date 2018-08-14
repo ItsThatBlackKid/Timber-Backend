@@ -7,13 +7,16 @@ Self explanatory, takes `email, hash`
 
 ## user/
 
-### /me
+### user/me
 Returns personal data, takes `session_token`
 
-### /<id>
+#### user/me/matches
+Returns all matches, takes `session_token`
+
+### user/\<id\>
 Returns public user data, takes `id`
 
-#### /match
+#### user/\<id\>/match
 Matches with user, takes `id`
 
 ## /nearby
